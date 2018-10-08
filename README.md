@@ -21,17 +21,17 @@ You can use this list to add, remove, or edit the list of categories and questio
     ]
 }
 ```
-* <b>title:</b> category title displayed on the home page  
-* <b>quizDate:</b> leave empty (the value will be stored in app settings after first attempt)  
-* <b>lastScore:</b> leave empty (the value will be stored in app settings after first attempt)  
-* <b>color:</b> color of all the text in the card  
-* <b>backgroundColor:</b> background color of the card  
-* <b>image:</b> an absolute path to the image to be displayed on the card (leave empty if no image)  
+* <b>title:</b> category title displayed on the home page
+* <b>quizDate:</b> leave empty (the value will be stored in app settings after first attempt)
+* <b>lastScore:</b> leave empty (the value will be stored in app settings after first attempt)
+* <b>color:</b> color of all the text in the card
+* <b>backgroundColor:</b> background color of the card
+* <b>image:</b> an absolute path to the image to be displayed on the card (leave empty if no image)
 
-* <b>questions:</b> list of questions for the category  
-* <b>question:</b> question to be displayed  
-* <b>options:</b> list of options for the question  
-* <b>correctAnswerIndex:</b> index of the correct option (0 - 3)  
+* <b>questions:</b> list of questions for the category
+* <b>question:</b> question to be displayed
+* <b>options:</b> list of options for the question
+* <b>correctAnswerIndex:</b> index of the correct option (0 - 3)
 
 
 
