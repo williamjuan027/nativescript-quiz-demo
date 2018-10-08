@@ -1,0 +1,20 @@
+<GridLayout rows="auto, auto, *, auto" columns="*, auto" backgroundColor="#0D0735" padding="15">
+
+	<Label row="0" col="0" color="#fff" fontSize="15" fontWeight="bold" [text]="'QUESTION ' + (currentQuestionIndex + 1) + '/' + questions.length"></Label>
+	<Label row="0" col="1" color="#fff" fontSize="15" fontWeight="bold" text="END" (tap)="end()"></Label>
+
+	<GridLayout row="1" col="0" colSpan="2" backgroundColor="#4A4A4A" height="20" borderRadius="10" margin="10 0">
+		<StackLayout horizontalAlignment="left" backgroundColor="#B6EB81" height="20" borderRadius="10" [width]="(currentQuestionIndex * 100 / questions.length) + '%'"></StackLayout>
+	</GridLayout>
+
+	<GridLayout row="2" col="0" colSpan="2" backgroundColor="#250046" margin="5" borderRadius="10">
+		<Label verticalAlignment="center" horizontalAlignment="center" textAlignment="center" color="#fff" fontSize="20" fontWeight="bold" textWrap="true" [text]="questions[currentQuestionIndex].question"></Label>
+	</GridLayout>
+
+	<GridLayout *ngIf="questions" row="3" col="0" colSpan="2" rows="*, *, *, *">
+		<GridLayout *ngFor="let item of questions[currentQuestionIndex].options; let i = index" [row]="i" height="70" margin="5" padding="5" backgroundColor="#4446FF" borderRadius="20" (tap)="selectAnswer(i, $event)">
+			<Label verticalAlignment="center" horizontalAlignment="center" textAlignment="center" color="#fff" fontSize="13" fontWeight="bold" textWrap="true" [text]="item"></Label>
+		</GridLayout>
+	</GridLayout>
+
+</GridLayout>

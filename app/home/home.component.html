@@ -1,0 +1,12 @@
+<GridLayout rows="*" backgroundColor="#250046">
+	<ScrollView row="0">
+		<StackLayout>
+			<GridLayout *ngFor="let item of categories; let i = index" rows="auto, auto, *, auto" columns="*, auto" height="200" [backgroundColor]="item.backgroundColor" padding="20" (tap)="navigateToQuiz(i)">
+				<Image row="0" rowSpan="3" col="1" [src]="item.image" height="150" width="150"></Image>
+				<Label row="0" col="0" colSpan="2" color="#fff" fontSize="15" [text]="'NEXT TEST - ' + item.quizDate"></Label>
+				<Label row="1" col="0" colSpan="2" color="#fff" fontSize="15" [text]="'LAST SCORE - ' + item.lastScore + '%'"></Label>
+				<Label row="3" col="0" colSpan="2" color="#fff" fontSize="30" fontWeight="bold" [text]="item.title"></Label>
+			</GridLayout>
+		</StackLayout>
+	</ScrollView>
+</GridLayout>
