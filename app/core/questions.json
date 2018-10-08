@@ -1,0 +1,31 @@
+{
+    "categories": [
+    {
+            "title": "PROGRAMMING", "quizDate": "20 October", "lastScore": "70%", "backgroundColor": "#250046", "image": "~/images/programming.png",
+            "questions": [
+            { "question": "Programming question 1", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Programming question 2", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Programming question 3", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Programming question 4", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Programming question 5", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 }
+        ]
+    },
+     {
+            "title": "NETWORKING", "quizDate": "20 October", "lastScore": "70%", "backgroundColor": "#0D0735", "image": "~/images/networking.png",
+            "questions": [
+            { "question": "Networking question 1", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Networking question 2", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Networking question 3", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 }
+        ]
+    },
+    {
+            "title": "SECURITY", "quizDate": "20 October", "lastScore": "70%", "backgroundColor": "#020046", "image": "~/images/security.png",
+            "questions": [
+            { "question": "Security question 1", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Security question 2", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
+            { "question": "Security question 3", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 }
+        ]
+    }
+
+    ]
+}
