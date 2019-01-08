@@ -3,29 +3,28 @@
     {
             "title": "PROGRAMMING", "quizDate": "20 October", "lastScore": "70%", "backgroundColor": "#250046", "image": "~/images/programming.png",
             "questions": [
-            { "question": "Programming question 1", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Programming question 2", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Programming question 3", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Programming question 4", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Programming question 5", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 }
+            { "question": "Which of the following is correct about Angular 2 Components?", "options": ["AngularJS had a focus of Controllers but Angular 2 has changed the focus to having components over controllers.", "Components help to build the applications into many modules.", "This helps in better maintaining the application over a period of time.", "All of the above."], "correctAnswerIndex": 3 },
+            { "question": "Which of the following is true?", "options": ["Angular 2 Modules are used to create components which can be shared across the entire application.", "Angular 2 Metadata is used to create components which can be shared across the entire application.", "Angular 2 Services are used to create components which can be shared across the entire application.", "None of the above."], "correctAnswerIndex": 2 },
+            { "question": "Which of the following is correct about Import Array in Angular 2 Modules?", "options": ["Import array can be used to import the functionality from other Angular JS modules.", "Import array can be used to import the templates.", "Both of the above.", "None of the above."], "correctAnswerIndex": 0 },
+            { "question": "Which of the following is correct about CLI?", "options": ["CLI stands for Command Line Interface.", "CLI can be used to create Angular JS application.", "It also helps in creating a unit and end-to-end tests for the application.", "All of the above."], "correctAnswerIndex": 3 },
+            { "question": "Which of the following is correct about systemjs.config.json?", "options": ["This file is used to give the options about TypeScript used for the Angular JS project.", "This file contains information about Angular 2 project.", "This file contains the system files required for Angular JS application.", "All of the above."], "correctAnswerIndex": 2 }
         ]
     },
      {
             "title": "NETWORKING", "quizDate": "20 October", "lastScore": "70%", "backgroundColor": "#0D0735", "image": "~/images/networking.png",
             "questions": [
-            { "question": "Networking question 1", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Networking question 2", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Networking question 3", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 }
+            { "question": "How long is an IPv6 address?", "options": ["32 bits", "128 bytes", "64 bits", "128 bits"], "correctAnswerIndex": 3 },
+            { "question": "What flavor of Network Address Translation can be used to have one IP address allow many users to connect to the global Internet?", "options": ["NAT", "Static", "Dynamic", "PAT"], "correctAnswerIndex": 3 },
+            { "question": "Which of the following is the valid host range for the subnet on which the IP address 192.168.168.188 255.255.255.192 resides?", "options": ["192.168.168.129-190", "192.168.168.129-191", "192.168.168.128-190", "192.168.168.128-192"], "correctAnswerIndex": 0 }
         ]
     },
     {
             "title": "SECURITY", "quizDate": "20 October", "lastScore": "70%", "backgroundColor": "#020046", "image": "~/images/security.png",
             "questions": [
-            { "question": "Security question 1", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Security question 2", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 },
-            { "question": "Security question 3", "options": ["one", "two", "three", "four"], "correctAnswerIndex": 0 }
+            { "question": "Which command would you use to apply an access list to a router interface?", "options": ["ip access-list 101 out", "access-list ip 101 in", "ip access-group 101 in", "access-group ip 101 in"], "correctAnswerIndex": 3 },
+            { "question": "What command will permit SMTP mail to only host 1.1.1.1?", "options": ["access-list 10 permit smtp host 1.1.1.1", "access-list 110 permit ip smtp host 1.1.1.1", "access-list 10 permit tcp any host 1.1.1.1 eq smtp", "access-list 110 permit tcp any host 1.1.1.1 eq smtp"], "correctAnswerIndex": 3 },
+            { "question": "Which router command allows you to view the entire contents of all access lists?", "options": ["Router# show interface", "Router> show ip interface", "Router# show access-lists", "Router> show all access-lists"], "correctAnswerIndex": 2 }
         ]
     }
-
     ]
 }

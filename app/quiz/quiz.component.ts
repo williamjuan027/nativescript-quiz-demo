@@ -37,19 +37,18 @@ export class QuizComponent implements OnInit {
 		})
 	}
 
-	// ------------------------------------------------------
-	// QUIZ
+	// -------------------------- QUIZ ----------------------------
 
 	selectAnswer(answerIndex: number, args: any) {
 		let option = <GridLayout>args.object;
 		if (this.questions[this.currentQuestionIndex].correctAnswerIndex == answerIndex) {
 			// correct answer
 			this.score += 1;
-			option.backgroundColor = '#00ff00';
+			option.backgroundColor = '#B6EB81';
 		}
 		else {
 			// wrong answer
-			option.backgroundColor = '#ff0000';
+			option.backgroundColor = '#ff4b60';
 		}
 		setTimeout(
 			() => {
@@ -73,8 +72,7 @@ export class QuizComponent implements OnInit {
 		this.navigateToScore();
 	}
 
-	// ------------------------------------------------------
-	// NAVIGATION
+	// -------------------------- NAVIGATION ----------------------------
 
 	navigateToScore() {
 		let navigationExtras = {
