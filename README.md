@@ -4,6 +4,8 @@
 
 Link to playground - https://play.nativescript.org/?template=play-ng&id=LhwHnA
 
+![gif](https://github.com/williamjuan027/nativescript-quiz-demo/blob/master/gif/ns-quiz.gif)
+
 ### How it works
 The demo uses the list of categories and questions in `app/core/questions.json` to populate the quiz data on the app and `application-settings` to store last quiz score and last quiz date.
 
