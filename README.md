@@ -1,5 +1,7 @@
 # nativescript-quiz-demo
 
+![mock ups](https://github.com/williamjuan027/nativescript-quiz-demo/blob/master/mockup/ns_quiz.png)
+
 Link to playground - https://play.nativescript.org/?template=play-ng&id=k1C2bj&v=30
 
 ### How it works
